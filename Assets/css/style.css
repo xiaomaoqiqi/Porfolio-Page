@@ -1,12 +1,28 @@
 
 .inner {
     
-    border-left-width: 300vw;
+    border-left-width: 500vw;
     border-right-width: 100vw;
   
 }
 .logo {
-    font-family: 'Tangerine';
-    font-weight: Bold;
-    font-size: 300%;
+  margin: 0;
+  padding: 1vw 70vw 0 2vw;
+  font-family: 'Lobster';
+  font-size: 2vw;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0vw 0 0 70vw;
+    width: 300vw;
+}
+li {
+    display: inline;
+    font-family: 'Lobster';
+    font-size: 2vw;
+}
+li a {
+    padding: 0 2vw 0 0;
 }
