@@ -1,28 +1,123 @@
 
-.inner {
-    
-    border-left-width: 500vw;
-    border-right-width: 100vw;
-  
-}
-.logo {
-  margin: 0;
-  padding: 1vw 70vw 0 2vw;
-  font-family: 'Lobster';
-  font-size: 2vw;
+.navbar-inverse {
+	background-color:transparent !important;
+	border-color:transparent;
+	background-image:none;
+	box-shadow:none;	
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0vw 0 0 70vw;
-    width: 300vw;
+.navbar-default {
+	background-color:transparent !important;
+	border-color:transparent;
+	background-image:none;
+	box-shadow:none;	
 }
-li {
-    display: inline;
-    font-family: 'Lobster';
+
+.navbar {
+     margin-bottom: 0;
+
+  border: none;
+  }
+  
+  .navbar-brand {
+    font-family: "lobster", sans-serif;
+    text-transform: uppercase; 
     font-size: 2vw;
+  
+  }
+.nav {
+    z-index: 100;
+    
 }
-li a {
-    padding: 0 2vw 0 0;
+.nav>li {
+    display: inline-block;
+    padding: 0 4vw 0 5vw ;
+  
+}
+
+
+
+#brand {
+    color: #F5FFFA ;
+}
+#brand:hover {
+      color: #DDA0DD;
+      
+}
+#brand:focus {
+    color: #DDA0DD;
+}
+
+  
+#home {
+    color: #F5FFFA ;
+    background-color: transparent !important;
+}
+#home:focus {
+    color: #DDA0DD;
+}
+
+
+#home:hover {
+    color:#DDA0DD ;
+}
+
+#Profolio {
+    color: #F5FFFA ;
+    background-color: transparent !important;
+}
+#Profolio:hover {
+    color:#DDA0DD; ;
+}
+#Profolio:focus {
+    color: #DDA0DD;
+}
+#About {
+    color: #F5FFFA ;
+    background-color: transparent !important;
+}
+#About:hover {
+    color:#DDA0DD; ;
+}
+#About:focus {
+    color: #DDA0DD;
+}
+#Contact {
+    color: #F5FFFA ;
+    background-color: transparent !important;
+}
+#Contact:hover {
+    color:#DDA0DD; ;
+}
+#Contact:focus {
+    color: #DDA0DD;
+}
+#menu {
+    font-family: 'lobster';
+    font-size: 1vw;
+}
+#XiaoqiPen {
+    font-family: 'lobster';
+    font-size: 1vw;
+
+}
+#pen {
+      color: #F5FFFA ;
+      background-color: transparent !important;
+}
+#pen:hover {
+    color:#DDA0DD; ;
+}
+#pen:focus {
+    color: #DDA0DD;
+}
+
+/* Bg image fader*/
+
+.fader {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    
 }

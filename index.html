@@ -13,38 +13,49 @@
  <link rel = "stylesheet"
    type = "text/css"
    href = "Assets\css\style.css" />
-
-</head>
-    <body>
-        <div id = "Container">
-        <header>
    
-        <div class = "inner">
-            <div class = "logo">
-                <a href ="#">Xiaoqi Zhou</a>
-                </div>
-                 <ul>
-                    <li class = "Active">
-                        <a href ="#">Home</a>
-                        </li>
-                        <li >
-                        <a href ="#">Profile</a>
-                        </li>
-                        <li >
-                        <a href ="#">Blog</a>
-                        <a href ="#">Contact</a>
-                        </li>
-                </ul>
-            
-        </div>
-       
-        </header>
-        </div>
-    
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script
 			  src="https://code.jquery.com/jquery-3.2.1.min.js"
 			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
 			  crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+			  
+<script type ="text/javascript" src="Assets\js\myjs.js"></script>
+
+</head>
+    <body>
+        <nav class="navbar  navbar-inverse navbar-fixed-top  " role="navigation" align="center">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a id = "brand" class="navbar-brand" href="#">Xiaoqi Zhou</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+      <ul id ="menu" class="nav navbar-nav">
+      
+        <li ><a id ="home" href="#">Home</a></li>
+        <li><a id ="Profolio" href="#">Profolio</a></li>
+        <li><a id ="About" href="#">About</a></li>
+        <li><a id ="Contact" href="#">Contact</a></li>
+          </ul>
+       
+      <ul id = "XiaoqiPen" class="nav navbar-nav navbar-right">
+        <li><a id = "pen" href="https://codepen.io/xiaomaoqiqi/" target="_blank"><i class ="fa fa-pencil-square-o" aria-hidden ="true"></i>Xiaoqi's Pens</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class ="fader">
+  
+  </div>
+    
+
 </body>
 </html>
