@@ -1,10 +1,12 @@
 
-#container.inner {
+.inner {
     
-    border-left-width: 300px;
-    border-right-width: 100px;
+    border-left-width: 300vw;
+    border-right-width: 100vw;
   
 }
 .logo {
     font-family: 'Tangerine';
+    font-weight: Bold;
+    font-size: 300%;
 }
