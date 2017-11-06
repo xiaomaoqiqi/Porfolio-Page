@@ -1,0 +1,122 @@
+/* Background - about*/
+#bg-about
+{
+   margin:0;
+   padding:0;
+   position: fixed;
+   z-index: -99;
+   top:0;
+   left:0;
+   width: 100%;
+   height: 100%;
+   /**scalable background to fill available viewport**/
+     background: no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+  
+
+}
+/**********************/
+
+#navbtn {
+ margin-left: 2vw;
+ margin-top: 2vw;
+ position: absolute; 
+ text-decoration: none;
+ text-align: center;
+ font-weight: bold;
+ padding: 0.5vw 3vw 0.5vw 3vw;
+ font-size: 3vw;
+ border: dashed;
+ border-color: 	#FF69B4;
+ background-color: transparent;
+ font-family: 'Courgette', cursive, sans-serif;
+ border-radius: 5px;
+ color: white;
+ z-index: 100;
+
+
+}
+
+h1 {
+    padding: 10vw 0 0 0;
+    font-family: 'Courgette', cursive, sans-serif;
+    font-size: 4vw;
+    color: white;
+}
+/* self-intro */
+p {
+    font-size: 3.5em;
+    padding-top: 2vw;
+    text-align: left;
+    padding-left: 2vw;
+    font-family: 'Courgette', cursive, sans-serif;
+    color: 		#EE82EE;
+      -webkit-animation:colorchange 20s 
+      infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+      0% {
+        
+        color: #FFFFFF;
+      }
+      
+      10% {
+        
+        color: #87CEEB;
+      }
+      
+      20% {
+        
+        color: #1abc9c;
+      }
+      
+      30% {
+        
+        color: 	#DB7093;
+      }
+      
+      40% {
+        
+        color: blue;
+      }
+      
+      50% {
+        
+        color: #34495e;
+      }
+      
+      60% {
+        
+        color: blue;
+      }
+      
+      70% {
+        
+        color: #2980b9;
+      }
+      80% {
+     
+        color: #f1c40f;
+      }
+      
+      90% {
+     
+        color: #7FFF00;
+      }
+      
+      100% {
+        
+        color: pink;
+      }
+    }
+    .me {
+        height: 35vw;
+        padding: 10vw 0 0 0;
+        margin-right: auto;
+        margin-left: 15vw;
+        
+    }
